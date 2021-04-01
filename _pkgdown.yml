@@ -1,0 +1,44 @@
+url: https://gipsousp.github.io/sqlr.per3/
+
+template:
+  params:
+    bootswatch: cosmo
+    ganalytics: G-LTPPRGNY73
+    mathjax: true
+    noindex: true
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, news]
+    right: [github]
+  components:
+    home: ~
+    news: ~
+    articles: ~
+
+reference:
+- title: Data
+  contents:
+  - sheets
+  - domain
+  - constraint
+  - keyword
+  - source
+  - search
+
+- title: Utilities
+  contents:
+  - raw_data
+
+authors:
+  Daniel Vartanian:
+    href: https://github.com/danielvartan
+  Interdisciplinary Sleep Research Group (GIPSO):
+    href: http://each.usp.br/gipso
+  University of Sao Paulo (USP):
+    href: http://usp.br
+
+development:
+  mode: auto
+  destination: doc
+  version_label: warning
