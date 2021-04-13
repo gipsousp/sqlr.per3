@@ -2,7 +2,7 @@ pandoc: 2.7.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2021-04-01T03:31Z
+last_built: 2021-04-13T02:09Z
 urls:
   reference: https://gipsousp.github.io/sqlr.per3//reference
   article: https://gipsousp.github.io/sqlr.per3//articles
