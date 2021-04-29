@@ -18,7 +18,7 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 <!-- badges: end -->
 
 `sqlr.per3` is an R package with the research compendium of the project:
-PER3 gene and circadian phenotypes: a systematic quantitative literature
+PER3 gene and circadian rhythms: a systematic quantitative literature
 review. The aim of `sqlr.per3` is to facilitate the research work, in
 addition to contributing to the reproducibility of the research.
 
@@ -56,14 +56,14 @@ citation("sqlr.per3")
 #> 
 #>   Mendes, J. V., Vartanian, D., Benedito-Silva, A. A., Pedrazzoli, M.
 #>   (2021). sqlr.per3: an R package with the research compendium of the
-#>   project: PER3 gene and circadian phenotypes: a systematic
-#>   quantitative literature review. Retrieved from
+#>   project: PER3 gene and circadian rhythms: a systematic quantitative
+#>   literature review. Retrieved from
 #>   https://gipsousp.github.io/sqlr.per3/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {sqlr.per3: an R package with the research compendium of the project: PER3 gene and circadian phenotypes: a systematic quantitative literature review},
+#>     title = {sqlr.per3: an R package with the research compendium of the project: PER3 gene and circadian rhythms: a systematic quantitative literature review},
 #>     author = {Juliana Viana Mendes and Daniel Vartanian and Ana Amelia Benedito-Silva and Mario Pedrazzoli},
 #>     year = {2021},
 #>     url = {https://gipsousp.github.io/sqlr.per3/},

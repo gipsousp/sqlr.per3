@@ -1,5 +1,5 @@
 Package: sqlr.per3
-Title: R Package for the PER3 Gene and Circadian Phenotypes Project
+Title: R Package for the PER3 Gene and Circadian Rhythms Project
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Juliana",
@@ -27,7 +27,7 @@ Authors@R:
       person(given = "University of Sao Paulo (USP)",
              role = c("fnd")))
 Maintainer: Daniel Vartanian <danvartan@gmail.com>
-Description: R package for the project: PER3 gene and circadian phenotypes: 
+Description: R package for the project: PER3 gene and circadian rhythms: 
       a systematic quantitative literature review.
 License: MIT + file LICENSE
 URL: https://gipsousp.github.io/sqlr.per3/, 

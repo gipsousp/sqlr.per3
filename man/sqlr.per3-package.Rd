@@ -4,11 +4,11 @@
 \name{sqlr.per3-package}
 \alias{sqlr.per3}
 \alias{sqlr.per3-package}
-\title{sqlr.per3: R Package for the PER3 Gene and Circadian Phenotypes Project}
+\title{sqlr.per3: R Package for the PER3 Gene and Circadian Rhythms Project}
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-R package for the project: PER3 gene and circadian phenotypes: 
+R package for the project: PER3 gene and circadian rhythms: 
       a systematic quantitative literature review.
 }
 \seealso{
