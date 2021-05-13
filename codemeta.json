@@ -5,10 +5,13 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "sqlr.per3",
-  "description": "R package for the project: PER3 gene and circadian phenotypes: \n      a systematic quantitative literature review.",
-  "name": "sqlr.per3: An R Package for the PER3 Gene and Circadian Phenotypes Project",
+  "description": "R package for the project: PER3 gene and circadian rhythms: \n      a systematic quantitative literature review.",
+  "name": "sqlr.per3: R Package for the PER3 Gene and Circadian Rhythms Project",
   "codeRepository": "https://github.com/gipsousp/sqlr.per3/",
-  "relatedLink": ["https://gipsousp.github.io/sqlr.template/", "https://gipsousp.github.io/sqlr.per3/"],
+  "relatedLink": [
+    "https://gipsousp.github.io/sqlr.template/",
+    "https://gipsousp.github.io/sqlr.per3/"
+  ],
   "issueTracker": "https://github.com/gipsousp/sqlr.per3/issues/",
   "license": "https://spdx.org/licenses/MIT",
   "version": "0.0.0.9000",
@@ -115,32 +118,15 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "ggplot2",
-      "name": "ggplot2",
+      "identifier": "emojifont",
+      "name": "emojifont",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "googlesheets4",
-      "name": "googlesheets4",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=googlesheets4"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "grDevices",
-      "name": "grDevices"
+      "sameAs": "https://CRAN.R-project.org/package=emojifont"
     },
     {
       "@type": "SoftwareApplication",
@@ -153,30 +139,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=knitr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "revtools",
-      "name": "revtools",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=revtools"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "rlang",
-      "name": "rlang",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=rlang"
     },
     {
       "@type": "SoftwareApplication",
@@ -204,18 +166,6 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "synthesisr",
-      "name": "synthesisr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=synthesisr"
-    },
-    {
-      "@type": "SoftwareApplication",
       "identifier": "testthat",
       "name": "testthat",
       "version": ">= 3.0.0",
@@ -226,11 +176,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=testthat"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "utils",
-      "name": "utils"
     }
   ],
   "softwareRequirements": [
@@ -251,18 +196,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=checkmate"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "dplyr",
-      "name": "dplyr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=dplyr"
     },
     {
       "@type": "SoftwareApplication",
@@ -293,26 +226,19 @@
       "identifier": "sqlr",
       "name": "sqlr",
       "sameAs": "https://github.com/gipsousp/sqlr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "stringr",
-      "name": "stringr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=stringr"
     }
   ],
   "readme": "https://github.com/gipsousp/sqlr.per3/blob/master/README.md",
-  "fileSize": "113.839KB",
-  "contIntegration": ["https://travis-ci.com/gipsousp/sqlr.per3", "https://codecov.io/gh/gipsousp/sqlr.per3?branch=master"],
+  "fileSize": "11669.456KB",
+  "contIntegration": "https://codecov.io/gh/gipsousp/sqlr.per3?branch=master",
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/gipsousp/sqlr.per3/blob/master/NEWS.md",
-  "keywords": ["chronobiology", "r-package", "sleep", "systematic-review"],
+  "keywords": [
+    "chronobiology",
+    "r-package",
+    "sleep",
+    "systematic-review"
+  ],
   "citation": [
     {
       "@type": "CreativeWork",
@@ -339,7 +265,7 @@
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "sqlr.per3: an R package with the research compendium of the project: PER3 gene and circadian phenotypes: a systematic quantitative literature review",
+      "name": "sqlr.per3: an R package with the research compendium of the project: PER3 gene and circadian rhythms: a systematic quantitative literature review",
       "url": "https://gipsousp.github.io/sqlr.per3/",
       "description": "Lifecycle: experimental"
     }

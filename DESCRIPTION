@@ -35,31 +35,24 @@ URL: https://gipsousp.github.io/sqlr.per3/,
 BugReports: https://github.com/gipsousp/sqlr.per3/issues/
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends:
     R (>= 3.6)
 Imports: 
     checkmate,
-    dplyr,
     lifecycle,
     magrittr,
-    sqlr,
-    stringr
+    sqlr
 Suggests: 
     covr,
     crayon,
-    ggplot2,
-    googlesheets4,
-    grDevices,
+    emojifont,
     knitr,
-    revtools,
-    rlang,
     rmarkdown,
     spelling,
-    synthesisr,
-    testthat (>= 3.0.0),
-    utils
+    testthat (>= 3.0.0)
 Remotes:
     github::gipsousp/sqlr
 Config/testthat/edition: 3

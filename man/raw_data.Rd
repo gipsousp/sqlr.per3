@@ -4,16 +4,14 @@
 \alias{raw_data}
 \title{Get paths to \code{sqlr.per3} raw data}
 \usage{
-raw_data(type = NULL, file = NULL, quiet = FALSE)
+raw_data(type = NULL, file = NULL)
 }
 \arguments{
 \item{type}{(optional) a string indicating the file type of the raw dataset
 (default: \code{NULL}).}
 
-\item{file}{(optional) a string indicating the file name of the raw dataset.}
-
-\item{quiet}{(optional) a \code{logical} value indicating if warnings or messages
-must be suppressed (default: \code{FALSE}).}
+\item{file}{(optional) a \code{character} object indicating the file name(s) of
+the raw dataset.}
 }
 \value{
 \itemize{
@@ -21,7 +19,7 @@ must be suppressed (default: \code{FALSE}).}
 available.
 \item If \code{type != NULL} and \code{file = NULL}, a \code{character} object with all file
 names available from type.
-\item If \code{type != NULL} and \code{file != NULL}, a string file name path.
+\item If \code{type != NULL} and \code{file != NULL}, a string with the file name path.
 }
 }
 \description{

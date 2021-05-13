@@ -29,21 +29,33 @@ test_check("sqlr.per3")
 # usethis::use_github_action_check_standard()
 # usethis::use_logo("./.archive/ai/hex-logo.png")
 # normalizePath(readClipboard(), "/", mustWork = FALSE)
+
+# SQLR System
 #
-# # Read references
-# file <- "2021-04-05 - Citations - PubMed - EN - 1-2821.txt"
-# path <- "C:\\Users\\Daniel\\Desktop\\"
-# file <- paste0(path, file)
-# test <- synthesisr::read_ref(file)
+# googlesheets4::gs4_auth()
 #
-# path <- "C:\\Users\\Daniel\\Desktop\\TEMP\\"
-# files <- paste0(path, dir(path))
-# test <- synthesisr::read_refs(files)
+# sqlr::write_metadata("1v7N31XDoRj7W8CiXM6iOJnqdJraM8eICyiWCeiXRwGY")
+# devtools::document()
+# devtools::load_all()
+# sqlr::write_sheet()
+# devtools::document()
+# devtools::load_all()
 #
-# # Normalize file names
-# path <- "./inst/extdata/citation/"
-# path <- "./inst/extdata/search_history/"
-# new_name <- tolower(dir(path))
-# new_name <- stringr::str_replace_all(new_name, " - ", "_")
-# new_name <- stringr::str_replace_all(new_name, " ", "-")
-# file.rename(paste0(path, dir(path)), paste0(path, new_name))
+# .rs.restartR()
+#
+# devtools::install()
+#
+# devtools::load_all(".")
+# sqlr::build_reference()
+#
+# devtools::document()
+# devtools::load_all()
+#
+# sqlr::write_trial()
+# nrow(dplyr::filter(reference, criteria_id == "DUP")) +
+# sqlr::sheet_nrow("trial_nr1") == nrow(reference)
+#
+# .rs.restartR()
+#
+# devtools::install()
+

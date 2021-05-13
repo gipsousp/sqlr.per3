@@ -8,9 +8,8 @@
 #'
 #' @param type (optional) a string indicating the file type of the raw dataset
 #'   (default: `NULL`).
-#' @param file (optional) a string indicating the file name of the raw dataset.
-#' @param quiet (optional) a `logical` value indicating if warnings or messages
-#'   must be suppressed (default: `FALSE`).
+#' @param file (optional) a `character` object indicating the file name(s) of
+#'   the raw dataset.
 #'
 #' @return
 #'
@@ -18,7 +17,7 @@
 #'   available.
 #' * If `type != NULL` and `file = NULL`, a `character` object with all file
 #' names available from type.
-#' * If `type != NULL` and `file != NULL`, a string file name path.
+#' * If `type != NULL` and `file != NULL`, a string with the file name path.
 #'
 #' @family utility functions
 #' @export
@@ -27,29 +26,6 @@
 #' \dontrun{
 #' raw_data()
 #' }
-raw_data <- function(type = NULL, file = NULL, quiet = FALSE) {
-    index <- list(
-        citation = list(name = "Citation",
-                        path = "extdata/citation"),
-        search_history = list(name = "Search history",
-                              path = "extdata/search_history")
-    )
-
-    checkmate::assert_string(file, null.ok = TRUE)
-    checkmate::assert_choice(type, names(index), null.ok = TRUE)
-    checkmate::assert_flag(quiet)
-
-    package <- "sqlr.per3"
-
-    if (is.null(file) && is.null(type)) {
-        dir(system.file("extdata", package = package))
-    } else if (is.null(file) && !is.null(type)) {
-        dir(system.file(index[[type]]$path, package = package))
-    } else if (!is.null(file) && !is.null(type)) {
-        system.file(index[[type]]$path, file, package = package,
-                    mustWork = TRUE)
-    } else if (!is.null(file) & is.null(type)) {
-        stop("When 'file' is assigned, the 'type' argument cannot be 'NULL'",
-             call. = FALSE)
-    }
+raw_data <- function(type = NULL, file = NULL) {
+    sqlr::raw_data(type = type, file = file, package = "sqlr.per3")
 }
