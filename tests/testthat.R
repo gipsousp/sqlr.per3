@@ -38,6 +38,7 @@ test_check("sqlr.per3")
 # sqlr::write_metadata("1v7N31XDoRj7W8CiXM6iOJnqdJraM8eICyiWCeiXRwGY")
 # devtools::document()
 # devtools::load_all()
+#
 # sqlr::write_sheet()
 # devtools::document()
 # devtools::load_all()
@@ -55,6 +56,13 @@ test_check("sqlr.per3")
 # sqlr::write_trial()
 # nrow(dplyr::filter(reference, criteria_id == "DUP")) +
 # sqlr::sheet_nrow("trial_nr1") == nrow(reference)
+#
+# sqlr::write_sheet("trial")
+# sqlr::update_reference("NR1")
+# devtools::document()
+# devtools::load_all()
+# sqlr::wr
+# sqlr::write_trial("NR2-LD1")
 #
 # .rs.restartR()
 #
